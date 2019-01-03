@@ -10,10 +10,12 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <script src="main.js"></script>
 </head>
-<body>
+<body id="home" data-spy="scroll" data-target="#main-nav">
+
     
 <!-- Navbar -->
-<nav class="navbar navbar-expand-sm navbar-light bg-light py-4">
+
+<nav id="main-nav" class="navbar navbar-expand-sm navbar-light bg-light py-1 sticky-top">
     <div class="container">
         <a href="index.html" class="navbar-brand active">max fleischman</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -36,18 +38,16 @@
 </nav>
 
 <!-- heading -->
-<section id="#about" class="py-4 mb-5">
+
+<section id="#about" class="py-4">
     <div class="text-dark">
         <div class="container">
             <div class="row mt-5">
-                <div class="col-lg-6 text-center mt-5 pt-5">
+                <div class="col-lg-8 text-center mt-5 pt-5">
                     <p class="lead mt-5 pt-5">front-end web developer <br>html/css/bootstrap/javascript/react(learning)</p>
                     <a href="about.html" class="btn btn-outline-light btn-lg btn-bg-light text-dark">
-                        <i class=""></i>more
+                        more
                     </a>
-                </div>
-                <div class="col-lg-6 mt-5 mb-5">
-                    <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/26173114_10107085906303862_7041086763148048235_o.jpg?_nc_cat=111&_nc_ht=scontent-sea1-1.xx&oh=d666d5e8f91ba9c31da89750cc1267f7&oe=5CCCD144" alt="" class="img-fluid d-none d-lg-block rounded-circle">
                 </div>
             </div>
         </div>
@@ -56,36 +56,120 @@
 
 <!-- break -->
 
-<section id="break" class="mt-5">
+<section id="break1" class="mt-5 d-none d-md-block">
     <div class="dark-overlay">
-        <div class="row ">
-
+        <div class="row">
         </div>
     </div>
 </section>
     
 <!-- Projects -->
-<section id="#projects" class="py-5">
+
+<section id="projects" class="mt-4 pt-5">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 mb-4 text-center">
-                <i class="fas fa-cog fa-3x mb-2"></i>
-                <h3>portfolio page</h3>
-                <p>i made this page you are currently on</p>
+        <div class="row justify-content-center">
+            <div class="col-md mt-2 pb-1 text-center">
+                <h2><strong>Projects</strong></h2>
             </div>
-            <div class="col-md-4 mb-4 text-center">
-                <i class="fas fa-cloud fa-3x mb-2"></i>
-                <h3>shannonfleischman.com</h3>
-                <p>historian/curator portfolio page</p>
+        </div>
+        <div class="row justify-content-around">
+            <div id="portfolio" class="col-md-3 mb-4 text-center card card-body">
+                <i class="fas fa-meteor text-danger fa-3x mb-2"></i>
+                <h5>portfolio</h5>
+                <p>this page right now</p>
             </div>
-            <div class="col-md-4 mb-4 text-center">
-                <i class="fas fa-cart-plus fa-3x mb-2"></i>
-                <h3>emerald</h3>
-                <p>medical template page i made as a side project</p>
+            <!-- NEED TO REMOVE UNDERLINES FOR CARD LINKS -->
+            <div id="shannon" class="col-md-3 mb-4 text-center card card-body">
+                <a href="https://www.shannonfleischman.com" class="text-dark">
+                    <i class="fas fa-book-open text-warning fa-3x mb-2"></i>
+                    <h5>shannon fleischman</h5>
+                    <p>historian/curator portfolio</p>
+            </a>
+            </div>
+            <div id="emerald" class="col-md-3 mb-4 text-center card card-body">
+                <a href="#" class="text-dark">
+                    <i class="fas fa-gem text-success fa-3x mb-2"></i>
+                    <h5>emerald</h5>
+                    <p>medical device template</p>
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-4 text-center card card-body">
+
+                </div>
             </div>
         </div>
     </div>
 </section> 
+
+<!-- break -->
+
+<section id="break2" class="mt-5 d-none d-md-block">
+    <div class="dark-overlay">
+        <div class="row">
+        </div>
+    </div>
+</section>
+
+<!-- CV -->
+
+<section id="cv">
+    <div class="container pt-4">
+        <div class="row pt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md l-5 mt-2 pb-4 text-center">
+                        <h2><strong>Curriculum Vitae</strong></h2>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-md-2 justify-content-left">
+                <h4>Work Experience</h4>
+            </div>
+
+            <div class="col-md-8 justify-content-center">
+                <div>
+                    <h4>Fine Arts Museums of San Francisco</h4>
+                    <h5>Cataloguer for the Suppes donation, Costume and Textiles department, de Young</h5>
+                    <h6>June 2018 - Oct 2018,  San Francisco, CA</h6>
+                    <p>*Asses donated collection *Photograph individual pieces *Catalog individual pieces in 4D system *Authenticate and date individual pieces *Attend daily meetings to update curators on progress *Update registrars on location of catalogued pieces *Update conservators on condition of garments *Dress mannequins for professional photos of the best pieces from the collection *Assist curators in filing coordinating paperwork from donated collection </p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- break -->
+
+<section id="break3" class="mt-5 d-none d-md-block">
+        <div class="dark-overlay">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+<!-- Contact -->
+
+<section id="contact" class="py-5 pt-5 pb-5 d-none d-md-block">
+    <div class="row">
+            <h1><strong>hello, <a href="mailto:1986development@gmail.com" class="">email</a> max fleischman</strong></h1>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer id="main-footer" class="py-2 pt-3 bg-dark text-white">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 m-auto">
+                <p class="lead">
+                    &copy; Max Fleischman <span id="year"></span> All Rights Reserved. United States. 
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script
 src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -96,6 +180,27 @@ crossorigin="anonymous"></script>
 <script>
     // get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+        // init scrollspy
+        $('body').scrollspy({target: '#main-nav'});
+    // smooth scrolling
+    $('#main-nav a').on('click', function (e) {
+      // Check for a hash value
+      if (this.hash !== '') {
+        // Prevent default behavior
+        e.preventDefault();
+
+        // Store hash
+        const hash = this.hash;
+
+        // Animate smooth scroll
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 1900, function () {
+          // Add hash to URL after scroll
+          window.location.hash = hash;
+        });
+      }
+    });
 </script>
 </body>
 </html>
