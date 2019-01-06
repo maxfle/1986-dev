@@ -11,7 +11,7 @@
     position: relative;
     margin-left: 350px;
     min-height: 275px;
-    max-width: 80%;
+    max-width: 60%;
     background: url('https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/25394753_10212575935846768_1364733570553180406_o.jpg?_nc_cat=108&_nc_ht=scontent-sea1-1.xx&oh=01ad3a8141e4eefd73354f9353d459c5&oe=5CC422EA');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -25,12 +25,13 @@
     position: relative;
     min-height: 250px;
     max-width: 35%;
+    width: 25%;
     background: url('https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/23032776_10214384569828607_5064980942479134462_n.jpg?_nc_cat=104&_nc_ht=scontent-sjc3-1.xx&oh=ba02c311430611e7743facb895044e0b&oe=5C8FE1E0');
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin-top: 500px !important;
     margin-bottom: 350px !important;
-    margin-left: 50px;
+    margin-left: 25px;
     border-radius: 80%;
     flex: auto;
 }
@@ -38,14 +39,14 @@
 #break3 {
     position: relative;
     min-height: 350px;
-    width: 60%;
-    max-width: 60%;
+    width: 50%;
+    max-width: 50%;
     background: url('https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/26173114_10107085906303862_7041086763148048235_o.jpg?_nc_cat=111&_nc_ht=scontent-sea1-1.xx&oh=d666d5e8f91ba9c31da89750cc1267f7&oe=5CCCD144');
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin-top: 500px !important;
     margin-bottom: 350px !important;
-    /* margin-left: 50px !important; */
+    margin-left: 225px !important;
     padding-right: 50px;
     border-radius: 80%;
     margin: auto;
@@ -56,15 +57,23 @@
     border: none;
     box-shadow: 0 0 1px rgba(131, 131, 131, 0.1);
     transition: all .8s;
+    width: 15%;
+    height: 150px;
 }
+
+
 
 #portfolio:hover {
     cursor: not-allowed;
 }
 
+#comingSoon:hover {
+    cursor: not-allowed;
+}
+
 .card:hover {
-    top: -10px;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    top: -15px;
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.2);
 }
 
 .card a {
@@ -95,5 +104,4 @@
         margin-right: 80px;
     }
 
-    
 }
