@@ -30,7 +30,10 @@
                     <a href="#resume" class="nav-link">resume</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" class="nav-link">contact</a>
+                    <a href="#contact" class="nav-link">contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/maxfle" class="nav-link"><i class="fab fa-github"></i></a>
                 </li>
             </ul>
         </div>
@@ -42,17 +45,29 @@
 <section id="#about" class="py-4">
     <div class="text-dark">
         <div class="container">
-            <div class="row mt-5">
+            <div class="row mt-5 pt-3">
                 <div class="col-lg-8 text-center mt-5 pt-5">
                     <p class="lead mt-5 pt-5">front-end web developer <br>html/css/bootstrap/javascript/react(learning)</p>
-                    <a href="about.html" class="btn btn-outline-light btn-lg btn-bg-light text-dark">
-                        more
-                    </a>
+                    <button class="btn btn-light" data-toggle="modal" data-target="#aboutModal">More</button>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- About Modal -->
+
+<div class="modal fade text-dark" id="aboutModal">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="">
+                        max fleischman lives in portland, oregon with his wife shannon and 3 dogs(willie, lily, and bubba). he has been developing webs since the summer of 2018, focusing primarily on a front end stack of html/css/bootstrap/javascript/react. when not internetting max can usually be found coaching lacrosse. max is the head coach of clackamas high school boys lacrosse, and also coaches for madlax oregon. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!-- break -->
 
@@ -80,8 +95,10 @@
         </div>
         <div class="row mt-5">
             <div id="portfolio" class="col-md-5 mb-5 pt-5 mr-5 text-center text-light card card-body">
-                <h3>portfolio</h3>
-                <p>this page right now</p>
+                <a href="#projects" class="text-light">
+                    <h3>this page</h3>
+                    <p>that you are currently viewing</p>
+                </a>
             </div>
             <div id="shannon" class="col-md-5 mb-5 mt-5 pt-5 ml-5 text-center card card-body">
                 <a href="https://www.shannonfleischman.com" class="text-light">
@@ -90,7 +107,7 @@
                 </a>
             </div>
         </div>
-        <div class="row mt- ml-5">
+        <div class="row ml-5">
             <div id="emerald" class="col-md-5 mb-4 pt-5 mr-5 text-center card card-body">
                 <a href="#" class="text-light">
                     <h3>emerald</h3>
@@ -127,17 +144,89 @@
                 </div>  
             </div>
             <div class="col-md-2 justify-content-left">
-                <h4>work wxperience</h4>
+                <h4>work experience</h4>
             </div>
-
-            <div class="col-md-8 justify-content-center">
+            <div class="col-md-8 ml-5 justify-content-center">
                 <div>
-                    <h4>Fine Arts Museums of San Francisco</h4>
-                    <h5>Cataloguer for the Suppes donation, Costume and Textiles department, de Young</h5>
-                    <h6>June 2018 - Oct 2018,  San Francisco, CA</h6>
-                    <p>*Asses donated collection *Photograph individual pieces *Catalog individual pieces in 4D system *Authenticate and date individual pieces *Attend daily meetings to update curators on progress *Update registrars on location of catalogued pieces *Update conservators on condition of garments *Dress mannequins for professional photos of the best pieces from the collection *Assist curators in filing coordinating paperwork from donated collection </p>
+                    <h5>madlax oregon</h5>
+                    <h6>program director</h6>
+                    <h6>august 2017 - july 2018,  portland, or</h6>
+                    <p>responsible for oversight and development of travel teams, local leagues, and clinics. coordinated coaches, wrote curriculum, developed and implemented new programs, recruited players, created and maintained relationships with other clubs and vendors. 
+                    </p>
                 </div>
                 <hr>
+                <div>
+                    <h5>keller williams sunset corridor</h5>
+                    <h6>realtor&copy;</h6>
+                    <h6>february 2017 - july 2018,  portland, or</h6>
+                    <p>buying and listing broker
+                    </p>
+                </div>
+                <hr>
+                <div>
+                    <h5>lacrosse force</h5>
+                    <h6>youth program director/administrator</h6>
+                    <h6>2015-2017</h6>
+                    <p>worked directly with our ceo to develop our curriculum for the introductory aftersSchool programs. responsible for creating and maintaining relationships with all relevant administrators and parents.  
+                    </p>
+                </div>
+                <hr>
+                <div>
+                    <h5>urban nest realty</h5>
+                    <h6>realtor&copy;</h6>
+                    <h6>2015-2017</h6>
+                    <p>buying and listing broker
+                    </p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-5 pt-5 pb-5">
+            <div class="col-md-2 mt-3 justify-content-left">
+                <h4>web dev classes</h4>
+            </div>
+            <div class="col-md-6 mt-3 ml-5 justify-content-center">
+                <div>
+                    <h5>the web developer bootcamp</h5>
+                    <h6>colt steele</h6>
+                    <h6>udemy.com</h6>
+                    <p>introduction to web development class that covered html, css, javascript, jquery, regex, dom manipulation, node, bootstrap, express, mongodb, webpack, npm, yarn and more.
+                    </p>
+                </div>
+                <hr>
+                <div>
+                    <h5>practical javascript</h5>
+                    <h6>gordon zhu</h6>
+                    <h6>watchandcode.com</h6>
+                    <p>vanilla javascript, projects based on building to-do lists.
+                    </p>
+                </div>
+                <hr>
+                <div>
+                    <h5>bootstrap 4 from scratch</h5>
+                    <h6>brad traversy</h6>
+                    <h6>udemy.com</h6>
+                    <p>bootstrap 4 and sass. completed 5 projects.
+                    </p>
+                </div>
+                <hr>
+                <div>
+                    <h5>modern javascript from the beginning(in progress)</h5>
+                    <h6>brad traversy</h6>
+                    <h6>udemy.com</h6>
+                    <p>javascript, asynchronous programming with ajax, fetch api, promises & async / await.
+                    </p>
+                </div>
+                <hr>
+                <div>
+                    <h5>react front to back(in progress)</h5>
+                    <h6>brad traversy</h6>
+                    <h6>udemy.com</h6>
+                    <p>react, redux, es6+ features, firebase/firestore.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -154,18 +243,42 @@
 
 <!-- Contact -->
 
-<section id="contact" class="py-5 pt-5 pb-5 d-none d-md-block">
+<section id="contact" class="d-none d-md-block">
     <div class="row">
-        <h1><strong>hello, <a href="mailto:1986development@gmail.com" class="">email</a> max fleischman or <a href="contact.html" class="">don't</a>. goodbye.</strong></h1>
+        <h1><strong>hello, <a href="mailto:1986development@gmail.com" class="text-secondary">email</a> max fleischman or <a href="#contactModal" data-toggle="modal" data-target="#contactModal" class="text-secondary">don't</a>. goodbye.</strong></h1>
     </div>
 </section>
 
+<!-- Contact Modal -->
+
+<div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">contact me</h5>
+                <button class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="">
+                    max fleischman
+                    <br>
+                    971-319-0335
+                    <br>
+                    maxecf@gmail.com
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Footer -->
 
-<footer id="main-footer" class="py-2 pt-3 bg-dark text-white">
+<footer id="main-footer" class="py-1 pt-3 bg-dark sticky-bottom text-white">
     <div class="container">
         <div class="row text-center">
-            <div class="col-md-6 m-auto">
+            <div class="col-md-6 mt-0 mx-auto">
                 <p class="lead">
                     &copy; Max Fleischman <span id="year"></span> All Rights Reserved. United States. 
                 </p>
@@ -181,29 +294,30 @@ crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script>
-    // get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
-        // init scrollspy
-        $('body').scrollspy({target: '#main-nav'});
-    // smooth scrolling
-    $('#main-nav a').on('click', function (e) {
-      // Check for a hash value
-      if (this.hash !== '') {
-        // Prevent default behavior
-        e.preventDefault();
+// get the current year for the copyright
+$('#year').text(new Date().getFullYear());
 
-        // Store hash
-        const hash = this.hash;
+// init scrollspy
+$('body').scrollspy({target: '#main-nav'});
+// smooth scrolling
+$('#main-nav a').on('click', function (e) {
+    // Check for a hash value
+    if (this.hash !== '') {
+    // Prevent default behavior
+    e.preventDefault();
 
-        // Animate smooth scroll
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 1900, function () {
-          // Add hash to URL after scroll
-          window.location.hash = hash;
-        });
-      }
+    // Store hash
+    const hash = this.hash;
+
+    // Animate smooth scroll
+    $('html, body').animate({
+        scrollTop: $(hash).offset().top
+    }, 1900, function () {
+        // Add hash to URL after scroll
+        window.location.hash = hash;
     });
+    }
+});
 </script>
 </body>
 </html>
