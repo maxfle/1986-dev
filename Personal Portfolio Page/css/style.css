@@ -7,50 +7,58 @@
     font-size: 14px;
 }
 
-
-
 #break1 {
     position: relative;
-    margin-left: 350px;
-    min-height: 275px;
-    max-width: 100%;
-    background: url('https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/25394753_10212575935846768_1364733570553180406_o.jpg?_nc_cat=108&_nc_ht=scontent-sea1-1.xx&oh=01ad3a8141e4eefd73354f9353d459c5&oe=5CC422EA');
+    margin-left: 450px;
+    margin-top: 450px !important;
+    margin-bottom: 300px !important; 
+    height: 275px;
+    width: 500px;
+    background: url('/img/pink.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin-top: 450px !important;
-    margin-bottom: 350px !important; 
-    /* border-radius: 150px; */
+    border-radius: 20px;
     flex: auto;
 }
 
 #break2 {
     position: relative;
-    min-height: 250px;
-    max-width: 35%;
-    width: 25%;
-    background: url('https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/23032776_10214384569828607_5064980942479134462_n.jpg?_nc_cat=104&_nc_ht=scontent-sjc3-1.xx&oh=ba02c311430611e7743facb895044e0b&oe=5C8FE1E0');
+    height: 500px;
+    width: 90%;
+    margin-top: 400px !important;
+    margin-bottom: 200px !important;
+    background: url('/img/the_pug_lily.jpg');
     background-attachment: fixed;
+    background-size: contain;
+    background-position-x: 225px;
     background-repeat: no-repeat;
-    margin-top: 500px !important;
-    margin-bottom: 350px !important;
-    margin-left: 25px;
-    border-radius: 80%;
-    flex: auto;
+    visibility: hidden;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 1.2s;
+    animation: animat_show 1.2s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
 }
 
 #break3 {
     position: relative;
     min-height: 350px;
-    max-width: 90%;
-    width: 90%;
-    background: url('https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/26173114_10107085906303862_7041086763148048235_o.jpg?_nc_cat=111&_nc_ht=scontent-sea1-1.xx&oh=d666d5e8f91ba9c31da89750cc1267f7&oe=5CCCD144');
+    width: 600px;
+    background: url('/img/cake.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin-top: 500px !important;
-    margin-bottom: 350px !important;
-    margin-left: 225px !important;
+    margin-top: 300px !important;
+    margin-bottom: 300px !important;
+    margin-left: 375px !important;
     padding-right: 80px;
     padding-left: -15px;
+    border-radius: 20px;
     margin: auto;
     flex: auto;
 }
@@ -58,11 +66,9 @@
 .card {
     border: none;
     box-shadow: 0 1px 1px rgba(44, 44, 44, 0.1);
-    transition: all .5s;
-    width: 15%;
-    height: 150px;
-    background: #212529;
-    border-radius: 50px;
+    transition: all .8s;
+    height: 110px;
+    border-radius: 30px;
 }
 
 #portfolio:hover {
@@ -84,22 +90,20 @@
     text-decoration: none;
 }
 
-#contact {
+.contact {
     margin-bottom: -10px;
 }
 
-#contact h1 {
+.contact h1 {
     font-size: 12rem;
     color: white !important;
     background-color: rgb(48, 47, 47);
 }
-#contact a {
-    /* color: white; */
+.contact a {
     text-decoration: none;
 }
 
-#contact a:hover {
-
+.contact a:hover {
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     text-decoration: none;
 }
