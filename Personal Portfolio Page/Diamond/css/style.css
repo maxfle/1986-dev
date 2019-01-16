@@ -55,6 +55,10 @@
 .accordion {
   width: 40px; }
 
+#news btn:hover{
+  cursor: pointer;
+}
+
 #doc {
   position: relative;
   height: 80%;

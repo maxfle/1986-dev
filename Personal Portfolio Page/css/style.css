@@ -1,3 +1,9 @@
+body{
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
 .navbar {
     opacity: .8;
     border-bottom: #e9e9e9 1px solid;
@@ -7,18 +13,45 @@
     font-size: 14px;
 }
 
+.navy {
+    background-color: navy;
+}
+
+.pink {
+    background-color: pink;
+} 
+
+.fa-home{
+    color: pink;
+    background-color: navy;
+}
+
+.fa-book{
+    color: navy;
+    background-color: pink;
+}
+
+.fa-plus-square{
+    color: pink;
+    background-color: navy;
+}
+
+.fa-ellipsis-h {
+    color: navy;
+    background-color: pink;
+}
+
 #break1 {
     position: relative;
-    margin-left: 450px;
-    margin-top: 450px !important;
-    margin-bottom: 300px !important; 
-    height: 275px;
+    justify-content: center;
+    margin-top: 200px !important;
+    margin-bottom: 200px !important; 
+    height: 350px;
     width: 500px;
-    background: url('/img/pink.jpg');
+    background: url('/img/pink.jpg') no-repeat;
+    background-position: center center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    flex: auto;
+    visibility: hidden;
 }
 
 #break2 {
@@ -29,15 +62,14 @@
     margin-bottom: 200px !important;
     background: url('/img/the_pug_lily.jpg');
     background-attachment: fixed;
-    background-size: contain;
-    background-position-x: 225px;
+    background-position: center;
     background-repeat: no-repeat;
     visibility: hidden;
 }
 
 .fadeIn {
-    -webkit-animation: animat_show 1.2s;
-    animation: animat_show 1.2s;
+    -webkit-animation: animat_show 0.8s;
+    animation: animat_show 0.8s;
     visibility: visible !important;
 }
 
@@ -48,46 +80,31 @@
 
 #break3 {
     position: relative;
-    min-height: 350px;
+    min-height: 450px;
     width: 600px;
     background: url('/img/cake.jpg');
     background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    margin-top: 300px !important;
+    margin-top: 150px !important;
     margin-bottom: 300px !important;
-    margin-left: 375px !important;
-    padding-right: 80px;
-    padding-left: -15px;
-    border-radius: 20px;
-    margin: auto;
-    flex: auto;
+    visibility: hidden;
 }
 
-.card {
+.jumbotron {
     border: none;
     box-shadow: 0 1px 1px rgba(44, 44, 44, 0.1);
-    transition: all .8s;
-    height: 110px;
-    border-radius: 30px;
-}
-
-#portfolio:hover {
-    cursor: pointer;
-    text-decoration: none;
+    transition: all .6s;
 }
 
 #comingSoon:hover {
     cursor: not-allowed;
 }
 
-.card:hover {
+.jumbotron:hover {
     top: -15px;
     left:-5px;
-    box-shadow: 15px 14px 18px rgba(0, 0, 0, 0.5);
-}
-
-.card a {
-    text-decoration: none;
+    box-shadow: 25px 24px 28px rgba(0, 0, 0, 0.5);
 }
 
 .contact {
@@ -112,9 +129,3 @@
     #about lead{
         margin-top: -50px;
     }
-    
-    #projects h2 {
-        margin-right: 80px;
-    }
-
-}
