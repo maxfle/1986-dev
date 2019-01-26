@@ -36,9 +36,14 @@ body{
     background-color: navy;
 }
 
-.fa-ellipsis-h {
+.fa-user-md {
     color: navy;
     background-color: pink;
+}
+
+.fa-ellipsis-h {
+    color: pink;
+    background-color: navy;
 }
 
 #break1 {
