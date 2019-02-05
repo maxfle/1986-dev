@@ -1,7 +1,3 @@
-#main-header img {
-  width: 100%;
-  height: 100%; }
-
 #topBg {
   background: linear-gradient(to right, #2196f3, #f44336);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
@@ -31,3 +27,5 @@
 @media (min-width: 1199px) {
   .port-item {
     padding: 3em !important; } }
+
+/*# sourceMappingURL=style.css.map */
