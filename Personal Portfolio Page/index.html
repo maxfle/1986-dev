@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <script src="main.js"></script>
 </head>
 <body id="home" data-spy="scroll" data-target="#main-nav">
 
@@ -17,7 +17,7 @@
 
 <nav id="main-nav" class="navbar navbar-expand-sm navbar-light bg-light py-1 sticky-top">
     <div class="container">
-        <a href="index.html" class="navbar-brand active">max fleischman</a>
+        <a href="index.html" class="navbar-brand active">Max Fleischman</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -72,8 +72,11 @@
 
 <!-- break -->
 
-<section id="break1" class="d-none d-lg-block">
-    <div class="row">
+<section class="d-none d-lg-block">
+    <div class="container">
+        <div class="row d-flex">
+            <div id="break1" class="col-lg hideBreak"></div>
+        </div>
     </div>
 </section>
     
@@ -81,171 +84,141 @@
 
 <section id="projects" class="mt-4">
     <div class="container">
-        <div class="row d-flex">
-            <div class="col-md mt-2 pb-1 text-center">
-                <h2><strong>projects</strong></h2>
+        <div class="row">
+            <div class="col-md-8 mt-5 pb-1 mx-auto text-center">
+                <h2 class="mt-5"><strong>Recent Projects</strong></h2>
             </div>
         </div>
+        <div class="row d-flex mt-5">
+            <a id="portfolio" class="col-md-8 mx-auto mb-resp text-center jumbotron navy" href="#projects">
+                    <i class="fa fa-home fa-5x pink" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto text-start">
+                <h4>This Page</h4>
+                <p>That you are currently viewing</p>
+            </div>
+        </div>
+        <hr>
         <div class="row mt-5">
-            <div id="portfolio" class="col-md-3 mb-resp text-center bg-dark card card-body">
-                <a href="#projects" class="text-light">
-                    <h4>this page</h4>
-                    <p class="">that you are currently viewing</p>
-                </a>
-            </div>
-            <div id="shannon" class="col-md-3 mb-resp text-center bg-secondary border-dark card card-body">
-                <a href="https://www.shannonfleischman.com" target="_blank"class="text-dark">
-                    <h4>shannon fleischman</h4>
-                    <p class="d-none d-lg-block">historian/curator portfolio</p>
-                </a>
-            </div> 
-            <div id="emerald" class="col-md-3 mb-resp text-center bg-dark card card-body">
-                <a href="Diamond/index.html" target="_blank" class="text-light">
-                    <h4>emerald</h4>
-                    <p class="">medical device template</p>
-                </a>
-            </div>
-            <div id="comingSoon" class="col-md-3 mb-resp text-center bg-secondary border-dark text-dark card card-body">
-                    <h4>more</h4>
-                    <p class="">coming soon..</p>
+            <a id="shannon" class="col-md-8 mx-auto mb-resp text-center pink jumbotron text-dark" href="https://www.shannonfleischman.com" target="_blank">
+                <i class="fa fa-book fa-5x navy" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto text-start">
+                <h4>Shannon Fleischman</h4>
+                <p>Historian/Curator Portfolio</p>
             </div>
         </div>
+        <hr>
+        <div class="row mt-5">
+            <a id="diamond" class="col-md-8 mx-auto mb-resp text-center navy jumbotron text-light" href="/Diamond/index.html" target="_blank">
+                <i class="fa fa-plus-square fa-5x" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto text-start">
+                <h4>Diamond</h4>
+                <p>Medical device template</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-5">
+            <a id="psych" class="col-md-8 mx-auto mb-resp text-center pink jumbotron text-light" href="/PsychSolutions/index.html" target="_blank">
+                <i class="fas fa-user-md fa-5x"></i>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto text-start">
+                <h4>Psych Solutions</h4>
+                <p>Portfolio and Psychological contracting services</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-5">
+            <div id="comingSoon" class="col-md-8 mx-auto mb-resp text-center navy border-dark text-dark jumbotron">
+                <i class="fa fa-ellipsis-h fa-3x" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto text-start">
+                <h4>More</h4>
+                <p class="">Coming soon..</p>
+            </div>
+        </div>
+        <hr>
     </div>
 </section> 
 
 <!-- break -->
 
-<section id="break2" class="d-none d-lg-block">
-    <div class="row">
+<section class=" d-none d-lg-block">
+    <div class="container">
+        <div class="row">
+            <div id="break2" class="col-lg hideBreak"></div>
+        </div>
     </div>
 </section>
 
 <!-- CV -->
 
 <section id="resume">
-    <div class="container"> 
-        <div class="row pt-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 ml-5 mt-2 pb-5 text-center">
-                        <h2><strong>resume</strong></h2>
-                    </div>
-                </div>  
-            </div>
-            <div class="col-md-2 justify-content-left">
-                <h4>work</h4>
-            </div>
-            <div class="col-md-8 ml-5 justify-content-center">
-                <div>
-                    <h5>madlax oregon</h5>
-                    <h6>program director</h6>
-                    <h6>august 2017 - july 2018,  portland, or</h6>
-                    <p>responsible for oversight and development of travel teams, local leagues, and clinics. coordinated coaches, wrote curriculum, developed and implemented new programs, recruited players, created and maintained relationships with other clubs and vendors. 
-                    </p>
-                </div>
-                <hr>
-                <div>
-                    <h5>keller williams sunset corridor</h5>
-                    <h6>realtor&copy;</h6>
-                    <h6>february 2017 - july 2018,  portland, or</h6>
-                    <p>buying and listing broker.
-                    </p>
-                </div>
-                <hr>
-                <div>
-                    <h5>lacrosse force</h5>
-                    <h6>youth program director/administrator</h6>
-                    <h6>2015-2017</h6>
-                    <p>worked directly with our ceo to develop our curriculum for the introductory aftersSchool programs. responsible for creating and maintaining relationships with all relevant administrators and parents.  
-                    </p>
-                </div>
-                <hr>
-                <div>
-                    <h5>urban nest realty</h5>
-                    <h6>realtor&copy;</h6>
-                    <h6>2015-2017</h6>
-                    <p>buying and listing broker.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="container">
         <div class="row mt-2 pt-2 pb-5">
             <div class="col-md-2 mt-3 justify-content-left">
-                <h4>web dev classes</h4>
+                <h4>Web Dev Classes</h4>
             </div>
             <div class="col-md-6 mt-3 ml-5 justify-content-center">
                 <div>
-                    <h5>the web developer bootcamp</h5>
-                    <h6>colt steele</h6>
+                    <h5>React front to back(in progress)</h5>
+                    <h6>Brad Traversy</h6>
                     <h6>udemy.com</h6>
-                    <p>introduction to web development class that covered html, css, javascript, jquery, regex, dom manipulation, node, bootstrap, express, mongodb, webpack, npm, yarn and more.
+                    <p>React, Redux, es6+ features, firebase/firestore.
                     </p>
                 </div>
                 <hr>
                 <div>
-                    <h5>practical javascript</h5>
-                    <h6>gordon zhu</h6>
+                    <h5>Modern Javascript from the beginning(in progress)</h5>
+                    <h6>Brad Traversy</h6>
+                    <h6>udemy.com</h6>
+                    <p>Javascript, asynchronous programming with ajax, fetch API, promises & async / await.
+                    </p>
+                </div>
+                <hr>
+                <div>
+                    <h5>Bootstrap 4 from scratch</h5>
+                    <h6>Brad Traversy</h6>
+                    <h6>udemy.com</h6>
+                    <p>Bootstrap 4 and sass. Completed 5 projects.
+                    </p>
+                </div>
+                <hr>
+                <div>
+                    <h5>Practical Javascript</h5>
+                    <h6>Gordon Zhu</h6>
                     <h6>watchandcode.com</h6>
-                    <p>vanilla javascript, projects based on building to-do lists.
+                    <p>Vanilla javascript, projects based on building to-do lists.
                     </p>
                 </div>
                 <hr>
                 <div>
-                    <h5>bootstrap 4 from scratch</h5>
-                    <h6>brad traversy</h6>
+                    <h5>The Web Developer Bootcamp</h5>
+                    <h6>Colt Steele</h6>
                     <h6>udemy.com</h6>
-                    <p>bootstrap 4 and sass. completed 5 projects.
-                    </p>
-                </div>
-                <hr>
-                <div>
-                    <h5>modern javascript from the beginning(in progress)</h5>
-                    <h6>brad traversy</h6>
-                    <h6>udemy.com</h6>
-                    <p>javascript, asynchronous programming with ajax, fetch api, promises & async / await.
-                    </p>
-                </div>
-                <hr>
-                <div>
-                    <h5>react front to back(in progress)</h5>
-                    <h6>brad traversy</h6>
-                    <h6>udemy.com</h6>
-                    <p>react, redux, es6+ features, firebase/firestore.
+                    <p>Introduction to web development class that covered html, css, javascript, jquery, regex, dom manipulation, node, bootstrap, express, mongodb, webpack, npm, yarn and more.
                     </p>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row mt-2 pt-2 pb-5">
             <div class="col-md-2 mt-3 justify-content-left">
-                <h4>formal education</h4>
-            </div>
-            <div class="col-md-6 mt-3 ml-5 justify-content-center">
-                <div>
-                    <h5>university of arizona</h5>
-                    <h6>bachelor of arts, interdisciplinary studies</h6>
-                    <h6>2008</h6>
-                    <p>field of studies: business, communication, classics.
-                    </p>
-                </div>
-                <hr>
-                <div>
-                    <h5>stuart hall high school, san francisco</h5>
-                    <h6>high school diploma</h6>
-                    <h6>2004</h6>
-                    <p>first graduation class.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row mt-2 pt-2 pb-5">
-            <div class="col-md-2 mt-3 justify-content-left">
-                <h4>more</h4>
+                <h4>More</h4>
             </div>
             <div class="col-md-6 mt-3 text-center">
                 <a href="/docs/Max Fleischman Resume.pdf" target="_blank">
@@ -260,10 +233,13 @@
 
 <!-- break -->
 
-<section id="break3" class="mt-5 ml-5 d-none d-lg-block">
+<section class="d-none d-lg-block hideBreak">
+    <div class="container">
         <div class="row">
+            <div id="break3" class="col-lg hideBreak"></div>
         </div>
-    </section>
+    </div>
+</section>
 
 <!-- Contact -->
 <span id="contact">
@@ -273,12 +249,10 @@
         </div>
     </section>
 
-    <!-- Contact button -->
+<!-- Contact button -->
     <section class="contact">
-        <div class="d-md-none">
-            <div class="row text-center">
-                <button class="mx-auto mb-5 btn btn-secondary d-lg-none" href="#contactModal" data-toggle="modal" data-target="#contactModal">contact me</button>
-            </div>
+        <div class="d-md-none text-center">
+            <button class="mx-auto mb-5 btn btn-secondary d-lg-none text-center" href="#contactModal" data-toggle="modal" data-target="#contactModal">contact me</button>
         </div>
     </section>
 </span>
@@ -369,12 +343,12 @@ function showImages(el) {
 
     // if the image in the window of browser when the page is loaded, show that image
     $(document).ready(function(){
-            showImages('#break2');
+            showImages('.hideBreak');
     });
 
     // if the image in the window of browser when scrolling the page, show that image
     $(window).scroll(function() {
-            showImages('#break2');
+            showImages('.hideBreak');
     });
 
 </script>
